@@ -21,6 +21,8 @@
 
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia porro aliquid ex sunt impedit incidunt eum voluptate inventore beatae accusamus!</p>
 <hr>
+
+    <h2>TAGS</h2>
      <!-- Anchor tag -->
       <a href="https://www.google.com">google</a>
       <br>
@@ -92,7 +94,7 @@
       </div>
 <hr>
       <!-- lists in HTML unordered and ordered list -->
-
+       <h2>lists in HTML</h2>
       <!-- unordered list -->
       <ul>
         <li>wali</li>
@@ -128,7 +130,7 @@
 <hr>
       <!-- Tables in HTML -->
        <!-- there is also tr,th,td,theader,tbody and colspan tag -->
-
+        <h2>Tables in HTML</h2>
       <table>
         <thead>
         <caption>student data</caption>
@@ -157,18 +159,55 @@
       </tbody>
 <hr>
       <!-- form in HTML -->
-
-      <form action="/action.png">
-        <input type="text" placeholder="username"><br>
-        <input type="password" placeholder="password"><br>
-
-        <label for="101">
-        <input type="radio" value="class XI" id="101" name="class">class XI <br>
+       <h2>Registration form</h2>
+     <form action="/action.php">
+        <input type="text" placeholder="username">
+<br><br>
+        <input type="password" placeholder="password">
+<br><br>
+        <!-- label -->
+         <br><br><br><br>
+         <h4>select your fav class</h4>
+         <br><br>
+        <label for="111">
+        <input type="radio" value="Class XI" name="class" id="111">Class XI
         </label>
-        <label for="102">
-        <input type="radio" value="class XII" id="102" name="class">c;ass XII <br>
-        </label>
-      </form>
+<br><br>
+        <label for="222">
+         <input type="radio" value="Class XII" name="class" id="222">Class XII
+         </label>
+         <br><br>
+
+         <h4>select your fav subject</h4>
+<br><br>
+         <label for="math">
+            <input type="checkbox" value="math" name="subject" id="101">math
+         </label>
+<br><br>
+         <label for="english">
+            <input type="checkbox" value="english" name="subject" id="102">english
+         </label>
+<br><br>
+         <label for="phy">
+            <input type="checkbox" value="phy" name="subject" id="103">phy
+         </label>
+<br><br>
+         <label for="chem">
+            <input type="checkbox" value="chem" name="subject" id="104">chem
+         </label>
+<br><br>
+         select your city
+         <select name="city" >
+            <option value="peshawar">peshawar</option>
+             <option value="multan">multan</option>
+              <option value="karachi">karachi</option>
+               <option value="islamabad">islamabad</option>
+         </select>
+<br><br>
+         <textarea name="feedback" id="105" placeholder="please give your feedback here">feeedback</textarea>
+<br>
+         <input type="submit" value="submit">
+     </form>
 
 
 
