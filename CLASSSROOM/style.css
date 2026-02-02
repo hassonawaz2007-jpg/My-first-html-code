@@ -1,14 +1,17 @@
-p{
-    color: rgb(21, 124, 168);
+#box{
+    background-color: blue;
 }
+
+.heading{
+    color: red;
+}
+
+/* h1,h2,h3{ 
+    color: red;
+ }*/ 
 
 button{
-    color: rgb(205, 152, 46);
-    background-color: white;
-}
-
-body{
-    background-color:#9a8c98;
+background-color: green;
 }
 
 /* ID SELECTOR */
@@ -22,4 +25,8 @@ body{
 
 .myclass{
     color: red;
+}
+
+button{
+    color: green;
 }
